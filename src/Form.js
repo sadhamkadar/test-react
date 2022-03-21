@@ -27,6 +27,7 @@ function Form() {
         const tempArray = tableValue.filter((val) => val.userName !== index)
 
         setTableValue(tempArray);
+        console.log(tempArray);
 
     };
 
